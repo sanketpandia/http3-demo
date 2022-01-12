@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Both projects",
+            "configurations": [
+                "Server",
+                "Client",
+            ]
+        }
+    ],
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Server",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-server",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/dotnet-http3-server/bin/Debug/net6.0/dotnet-http3-server.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/dotnet-http3-server",
+            "stopAtEntry": false,
+            // // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            // "serverReadyAction": {
+            //     "action": "openExternally",
+            //     "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            // },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Client",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-client",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/dotnet-http3-client",
+            "stopAtEntry": false,
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
