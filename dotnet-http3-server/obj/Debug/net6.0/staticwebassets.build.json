@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IAGpAheH6L+Ciz6JkRrc9lmTKxlY3O0ZPDb7HtGIf9I=",
+  "Source": "dotnet-http3-server",
+  "BasePath": "_content/dotnet-http3-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

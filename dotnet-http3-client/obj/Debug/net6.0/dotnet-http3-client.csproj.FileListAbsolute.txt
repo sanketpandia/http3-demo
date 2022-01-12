@@ -1,0 +1,15 @@
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client.deps.json
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client.runtimeconfig.json
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client.dll
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/ref/dotnet-http3-client.dll
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/bin/Debug/net6.0/dotnet-http3-client.pdb
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.csproj.AssemblyReference.cache
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.GeneratedMSBuildEditorConfig.editorconfig
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.AssemblyInfoInputs.cache
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.AssemblyInfo.cs
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.csproj.CoreCompileInputs.cache
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.dll
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/ref/dotnet-http3-client.dll
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.pdb
+/home/dumbledore/projects/jsHttp3/dotnet-http3-client/obj/Debug/net6.0/dotnet-http3-client.genruntimeconfig.cache
