@@ -15,4 +15,16 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
+app.MapPost("/upload", async Task<IResult>(IFormFile request) =>
+    {
+        if (request.Length == 0)
+            return Results.BadRequest();
+
+        await using var stream = request.OpenReadStream();
+
+        var reader = new StreamReader(stream);
+        var text = await reader.ReadToEndAsync();
+        System.Console.WriteLine("=====================================\nPOST Request Received\n=======================================");
+        return Results.Ok(text);
+    });
 app.Run();
